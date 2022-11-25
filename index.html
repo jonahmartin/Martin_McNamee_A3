@@ -29,11 +29,11 @@
 
 <body>
     
-    <div class="container">
+        <div class="container">
         <div class="row">
-            <div class="offcanvas-sm offcanvas-start col-2" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="col-2 d-none d-md-block" tabindex="-1" id="">
                 <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasExampleLabel">Menu</h5>
+                  <h5>Menu</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
@@ -100,7 +100,82 @@
                           </li>
                       </ul>  
                     </div>
-              </div>  
+              </div> 
+
+              <div class="offcanvas offcanvas-start" tabindex="1" id="offcanvasLeft" aria-labelledby="offcanvasLeftLabel">
+                <a class="btn btn-primary d-md-none" data-bs-toggle="offcanvas" href="#offcanvasLeft" role="button" aria-controls="offcanvasLeft">
+                  Menu
+                </a>    
+                <div class="offcanvas-body d-md-none">
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasLeftLabel">Menu</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                        <ul class="nav flex-column nav-pills">
+                            <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="#">Australia</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Brazil</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Canada</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">China</a>
+                              </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Cuba</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Egypt</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Ethiopia</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Germany</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Guatemala</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Iran</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Italy</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Jamaica</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Jordan</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Kazakhstan</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Morocco</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Pakistan</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Russia</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Singapore</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Thailand</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Venezuela</a>
+                              </li>
+                          </ul>  
+                    </div>
+                  </div>            
+
           <div class="col-10">          
           <div class="countryName">Australia</div>
           <div class="col"><img src="src/flags/Australia.png" class="rounded float-right"></div>
