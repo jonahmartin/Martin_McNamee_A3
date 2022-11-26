@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martin McNamee Assignment #3</title>
+
+    <style>
+        @media screen and (max-device-width: 768px) {
+            .countryName {font-size: 250%;}
+        }
+
+        @media screen and (min-device-width: 769px) {
+            .countryName {font-size: 400%;}
+        }
+        @media screen and (min-device-width: 1201px) {
+            .countryName {font-size: 500%;}
+        }
+    </style>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+
+<body>
+<div class="container">
+
+<button class="btn btn-primary mx-1 d-sm-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Menu</button>
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Menu</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div class="d-flex align-items-start">
+      <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+        <button class="nav-link active" id="australia-tab" data-bs-toggle="pill" data-bs-target="#australia" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Australia</button>
+        <button class="nav-link" id="brazil-tab" data-bs-toggle="pill" data-bs-target="#brazil" type="button" role="tab" aria-controls="brazil-tab" aria-selected="false">Brazil</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="tab-content" id="v-pills-tabContent">
+  <div class="tab-pane fade show active" id="australia" role="tabpanel" aria-labelledby="australia-tab">
+    <div class="countryName">Australia</div>
+  </div>
+
+  <div class="tab-pane fade" id="brazil" role="tabpanel" aria-labelledby="brazil-tab">
+  <div class="countryName">Brazil</div>
+  </div>
+</div>
+
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
